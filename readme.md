@@ -32,7 +32,7 @@ make
 ## Test result
 
 * Input
-<img src="./blob/main/dataset/test.jpg" width="256"/>
+<img src="https://github.com/Rayhchs/Yolov7-TFLite-Inference/blob/main/dataset/test.jpg" width="256"/>
 
 * Result
-<img src="./blob/main/result/output.jpg" width="256"/>
+<img src="https://github.com/Rayhchs/Yolov7-TFLite-Inference/blob/main/result/output.jpg" width="256"/>
