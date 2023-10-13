@@ -10,7 +10,15 @@ git clone https://github.com/Rayhchs/Yolov7-TFLite-Inference.git
 
 ```
 
-* Download Yolov7 onnx model from https://github.com/PINTO0309/PINTO_model_zoo/tree/main/307_YOLOv7 and put the model to **./onnx2tflite**
+* Download Yolov7 onnx model from https://github.com/WongKinYiu/yolov7 and convert yolov7.pt to yolov7.onnx
+``` shell
+
+git clone https://github.com/WongKinYiu/yolov7.git
+cd yolov7
+python export.py --grid
+
+```
+After conversion, put the model to **./onnx2tflite**
 
 * Convert onnx to tflite
 ``` shell
